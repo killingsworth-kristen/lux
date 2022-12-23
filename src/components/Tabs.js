@@ -5,10 +5,26 @@ import './style/Tabs.css'
 
 export default function Tabs () {
     return (
-        <div className='tabs'>
-            <div>
+        <div className='tabs-container'>
+            <div className='tab'>
                 <p>This is a tab</p>
-                <ClearIcon></ClearIcon>
+                <ClearIcon />
+            </div>
+            <div className='tab'>
+                <p>This is a tab</p>
+                <ClearIcon />
+            </div>
+            <div className='tab'>
+                <p>This is a tab</p>
+                <ClearIcon />
+            </div>
+            <div className='tab'>
+                <p>This is a tab</p>
+                <ClearIcon />
+            </div>
+            <div className='tab'>
+                <p>This is a tab</p>
+                <ClearIcon />
             </div>
         </div>
     )

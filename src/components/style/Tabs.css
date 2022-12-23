@@ -1,6 +1,12 @@
-.tabs {
+.tabs-container {
     display: flex;
-    justify-content: space-around;
-    background-color: #1976d2;
+    justify-content: flex-start;
+    border: 2px solid #1976d2;
     border-radius: 15px;
+}
+
+.tab {
+    margin: 0 3%;
+    display: flex;
+    align-items: center;
 }
