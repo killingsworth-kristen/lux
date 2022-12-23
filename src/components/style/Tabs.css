@@ -1,0 +1,6 @@
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1976d2;
+    border-radius: 15px;
+}

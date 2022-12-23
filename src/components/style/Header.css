@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+}
+
+.title-h1 {
+    margin: 0;
+    padding: 0 3% 0 3%;
+}
+
+#home-btn, #import-btn, #export-btn {
+    padding-top: 1rem;
+}
