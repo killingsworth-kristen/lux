@@ -1,0 +1,15 @@
+.home-container {
+    display: flex;
+
+}
+
+.selected-container {
+    width: 25vw;
+    margin: 2% 0 0 2%;
+}
+
+.parameters-container {
+    max-width: 75vw;
+    margin: 2% 2% 0 0;
+}
+

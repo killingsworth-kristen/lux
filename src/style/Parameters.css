@@ -1,0 +1,12 @@
+.time-parameters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parameters-tabs {
+    display: flex;
+}
+
+.parameters-tabs h3 {
+    margin: 0 2% 0 2%;
+}

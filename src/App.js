@@ -2,6 +2,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Tabs from './components/Tabs';
+import Home from './components/pages/Home'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <nav>
           <Tabs />
         </nav>
+        <Home/>
       </main>
     </div>
   );
