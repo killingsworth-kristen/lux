@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './../../style/Home.css'
-
 import Parameters from '../Parameters';
 import Selected from '../Selected';
+
+import './../style/Home.css'
 
 export default function Home () {
     return (
