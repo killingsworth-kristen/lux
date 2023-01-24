@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/Header.css'
+import './../style/Header.css'
 
 import {Button} from '@mui/material'
 

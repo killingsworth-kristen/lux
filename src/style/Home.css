@@ -1,15 +1,19 @@
 .home-container {
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .selected-container {
-    width: 25vw;
+    max-width: 25%;
     margin: 2% 0 0 2%;
 }
 
 .parameters-container {
-    max-width: 75vw;
+    max-width: 75%;
+    min-width: 50%;
+    justify-items: stretch;
     margin: 2% 2% 0 0;
+    border: 2px solid #1976d2;
 }
 

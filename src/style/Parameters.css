@@ -1,12 +1,66 @@
 .time-parameters {
     display: flex;
-    justify-content: space-evenly;
 }
+
+.time-parameters form, h4 {
+    margin: 2%;
+    padding: 0;
+}
+
+.flex-outer {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.flex-outer > li > input{
+    width: 50px;
+}
+
 
 .parameters-tabs {
     display: flex;
 }
 
 .parameters-tabs h3 {
+    border: 2px solid #1976d2;
+    margin: 0;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.parameters-tabs form {
+    font-size: 1.17em;
+    font-weight: bold;
+    /* margin: 1.65rem 0 1.65rem 0; */
+    padding: 0 1rem 0 1rem;
+    border: 2px solid #1976d2;
+    max-height: 45.875px;
+    flex: 1 1 0;
+    text-align: center;
+    min-width: fit-content;
+}
+
+.active {
+    background-color: #1976d2;
+    color: white;
+}
+
+.sort-parameters {
+    display: flex;
+}
+
+.sort-parameters h4 {
     margin: 0 2% 0 2%;
+}
+
+.sort-parameters form, input {
+    margin: 0 1rem 0 1rem;
+}
+
+.page-change-buttons {
+    display: flex;
+    justify-content: center;
 }

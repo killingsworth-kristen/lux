@@ -3,7 +3,7 @@ import React from 'react';
 import Parameters from '../Parameters';
 import Selected from '../Selected';
 
-import './../style/Home.css'
+import './../../style/Home.css'
 
 export default function Home () {
     return (
