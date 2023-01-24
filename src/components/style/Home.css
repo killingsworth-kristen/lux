@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+}
+
+.applied-filters {
+    width: 25%;
+    margin: 2% 5% 0 5%;
+}
+
+.filter-selection {
+    margin: 2% 5%;
+    width: 55%;
+    border: 2px solid #1976d2;
+    border-radius: 15px;
+}
+
+.filters-title {
+    display: flex;
+}
+
+.individual-filter {
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    margin: 0 0 0 3%;
+}
+
+.render-graph-btn {
+    border: 2px solid #1976d2;
+    border-radius: 10px;
+}
